@@ -23,6 +23,7 @@ football_club = 'Barcelona'
 
 # 5. დაწერეთ სასურველი კოდი და ახსენით კომენტარების მეშვეობით.
 
+# შევქმენი ორი ცვლადი და შევქმენი წინადადება print-ის მეშვეობით
 football_player = 'Lionel Messi'
 football_award = 'Ballon Dor'
 

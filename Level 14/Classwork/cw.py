@@ -13,4 +13,9 @@ for i in range(5):
 for i in range(3):
     print(i+2)
 
+
+    password = "SecretWord"
+guess = "1234"
+print(guess != password)
+
     

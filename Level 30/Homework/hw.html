@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combined CSS Tasks</title>
+    <style>
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #1877f2;
+            text-align: center;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input[type="text"], input[type="email"], input[type="password"] {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        input[type="submit"] {
+            background-color: #1877f2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .link {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .link a {
+            color: #1877f2;
+            text-decoration: none;
+        }
+
+        /* Task 5: Brown background for body */
+        body.brown {
+            background-color: rgb(255, 255, 255);
+        }
+
+        /* Task 6: Blue text color for paragraph */
+        p.blue-text {
+            color: blue;
+        }
+    </style>
+</head>
+<body class="brown">
+    <div class="container">
+        <h1>Sign Up</h1>
+        <form>
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Last name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <input type="submit" value="Sign Up">
+        </form>
+        <div class="link">
+            <p>Already have an account? <a href="#">Log In</a></p>
+        </div>
+    </div>
+</body>
+</html>

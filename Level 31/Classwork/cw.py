@@ -13,4 +13,8 @@ def sum(num3, num4):
     print(num3 * num4)
 sum(5, 7)
 
+vehicle = 'airplane'
+vehicle[:3] = 'water'
+print(vehicle)
+
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple CSS Examples</title>
+    <style>
+        /* 1. ID-ებით ელემენტების გასტილვა */
+        #elem1 { color: red; }
+        #elem2 { color: blue; }
+        #elem3 { color: green; }
+        #elem4 { color: purple; }
+        #elem5 { color: orange; }
+
+        /* 2. Class-ებით ელემენტების გასტილვა */
+        .styled { font-size: 20px; font-weight: bold; color: teal; }
+
+        /* 3. მხოლოდ <p>-ების გასტილვა საერთო class-ის გამოყენებით */
+        .common-class p { color: darkred; }
+
+        /* 4. მშობლის სტილები */
+        button {
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. ID-ებით სტილიზებული ელემენტები -->
+    <div id="elem1">Element 1 with ID</div>
+    <div id="elem2">Element 2 with ID</div>
+    <div id="elem3">Element 3 with ID</div>
+    <div id="elem4">Element 4 with ID</div>
+    <div id="elem5">Element 5 with ID</div>
+
+    <!-- 2. Class-ებით სტილიზებული ელემენტები -->
+    <div class="styled">Element 1 with class</div>
+    <div class="styled">Element 2 with class</div>
+    <div class="styled">Element 3 with class</div>
+    <div class="styled">Element 4 with class</div>
+    <div class="styled">Element 5 with class</div>
+
+    <!-- 3. საერთო class-ი, მაგრამ მხოლოდ <p> ელემენტები გაისტილება -->
+    <p class="common-class">This is a paragraph with a class.</p>
+    <p class="common-class">This is another paragraph with a class.</p>
+    <h1 class="common-class">This is an H1 with a class (not styled).</h1>
+    <h1 class="common-class">This is another H1 with a class (not styled).</h1>
+
+    <!-- 4. მშობელი <button> ელემენტი და შვილი <p> -->
+    <button>
+        <p><button></button></p>
+    </button>
+</body>
+</html>

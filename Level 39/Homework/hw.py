@@ -41,7 +41,6 @@ for i in range(3, 8):
     print(list8[i])
 
 # 3) მესამე list-ის მეცხრედან მეექვსე ელემენტამდე უარყოფითი ინდექსებით
-print("list9 elements from 9th to 6th (reverse):", list9[8:5:-1])
 
 # 4) მეოთხე list-ში ყველა ცვლადი while ციკლის გამოყენებით
 print("All elements of list10:")

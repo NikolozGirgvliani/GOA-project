@@ -1,0 +1,9 @@
+/* შემდეგ css გამოყენებით, ტექსტის ფერი გახადეთ წითელი, სიის მარკერი იყოს რომაული ციფრები, */
+
+ol{
+    color: red; list-style-type: upper-roman; list-style-position: inside;
+}
+
+h3{
+    color: blue;
+}

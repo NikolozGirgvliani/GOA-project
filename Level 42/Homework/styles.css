@@ -1,0 +1,40 @@
+input[type="Name"]{
+    border: 3px solid red;
+    border-radius: 30px;
+    background-color: rgb(88, 173, 248);
+}
+
+input[type="lastname"]{
+    border: 3px solid rgb(0, 8, 255);
+    border-radius: 30px;
+    background-color: rgb(243, 88, 248);
+}
+
+input[type="Email"]{
+border: 5px solid rgb(9, 255, 0);
+border-radius: 30px;
+background-color:rgb(248, 248, 88);
+}
+
+input[type="password"]{
+    border: 3px solid rgb(255, 145, 0);
+    border-radius: 30px;
+    background-color: rgb(123, 248, 88);
+}
+
+input[type="Submit"]{
+    border: 7px solid rgb(0, 55, 255);
+    border-radius: 40px;
+    background-color: rgb(88, 248, 93);
+}
+
+body{
+    background-color: rgb(251, 211, 127);
+}
+
+.rounded-square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 70px 45px 30px 17px;
+}

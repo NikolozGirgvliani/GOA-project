@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.cube1{
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    border: solid green 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.cube2{
+    background-color: yellow;
+    width: 100px;
+    height: 150px;
+    border: solid green 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.cube3{
+    background-color: violet;
+    width: 100px;
+    height: 150px;
+    border: solid green 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.cube4{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+    border: solid green 10px;
+    margin: 10px;
+    border-radius: 30px;
+}

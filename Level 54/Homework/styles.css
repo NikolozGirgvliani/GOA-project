@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+.container {
+    height: 590px;
+    width: 350px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 250px;
+}
+
+img {
+    border-radius: 100px;
+    margin-left: 125px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(191, 255, 0);
+    text-align: center;
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: rgb(34, 34, 34);
+}
+
+button:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: rgb(168, 168, 168);
+    text-align: center;
+}
+
+.github{
+    height: 50px;
+    width: 300px; 
+    background-color: rgb(34, 34, 34);
+    margin-left: 25px;
+    border-radius: 17px;
+    margin-top: 10px;
+}
+
+.Table-Tennis{
+    height: 50px;
+    width: 300px; 
+    background-color: rgb(34, 34, 34);
+    margin-left: 25px;
+    border-radius: 17px;
+    margin-top: 10px;
+}
+
+.Linkedin{
+    height: 50px;
+    width: 300px; 
+    background-color: rgb(34, 34, 34);
+    margin-left: 25px;
+    border-radius: 17px;
+    margin-top: 10px;
+}
+
+.Discord{
+    height: 50px;
+    width: 300px; 
+    background-color: rgb(34, 34, 34);
+    margin-left: 25px;
+    border-radius: 17px;
+    margin-top: 10px;
+}
+
+.Instagram{
+    height: 50px;
+    width: 300px; 
+    background-color: rgb(34, 34, 34);
+    margin-left: 25px;
+    border-radius: 17px;
+    margin-top: 10px;
+}

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-image-section {
+    height: 100vh;
+    background-image: url('DALL·E\ 2024-12-23\ 19.09.48\ -\ Create\ an\ artistic\ illustration\ featuring\ characters\ from\ Georgian\ literature_\ Data\ Tutashkhia\,\ a\ strong\ and\ noble\ man\ with\ a\ rugged\ appearance\,\ weari.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.title-inside-div {
+    position: relative;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px 0;
+}
+.title-inside-div h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+.title-inside-div div {
+    height: 200px;
+}
+
+.fixed-image-section {
+    height: 200vh; 
+    position: relative;
+}
+.fixed-image-section img {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+}
+
+.centered-div-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.centered-div-section div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.image-inside-centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+.image-inside-centered-div div {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.image-inside-centered-div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+}

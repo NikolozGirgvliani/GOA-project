@@ -1,0 +1,25 @@
+.super{
+    border-radius: 30px;
+    border: solid 3px black;
+    margin-left: 480px;
+}
+
+.tailung{
+    border-radius: 30px;
+    border: solid 3px black;
+    
+    position: absolute;
+    left: 500px;
+}
+
+h1{
+    position: absolute;
+    top: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}

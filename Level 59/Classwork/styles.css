@@ -1,0 +1,57 @@
+.W{
+    width: 150px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+
+.W:active{
+    transform: translate(50px);
+    transition: 2s;
+}
+
+.W1{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(43, 211, 226);
+    border-radius: 20px;
+    border: 3px solid black;
+    position: absolute;
+    left: 300;
+    margin-left: 100px;
+}
+
+.W1:active{
+    transform: scale(150%);
+    transition: 1.5s;
+}
+
+.W2{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(217, 226, 43);
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+
+.W2:active{
+    transform: translate(100px, 100px);
+    transition: 1.5s;
+}
+
+.W3{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(226, 43, 43);
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+
+.W3:active{
+    transform: rotate(-50deg);
+    transition: 1.5s;
+}

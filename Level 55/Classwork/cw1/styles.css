@@ -1,0 +1,19 @@
+.tailung{
+    position: absolute;
+    left: 800px;
+    top: 300px;
+    border-radius: 30px;
+    border: solid black 3px;
+}
+
+div{
+    width: 400px;
+}
+
+.superman{
+    position: fixed;
+    left: 1750px;
+    top: 850px;
+    border-radius: 30px;
+    border: solid black 3px;
+}

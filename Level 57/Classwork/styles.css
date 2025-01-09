@@ -1,0 +1,21 @@
+div{
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 20px 5px;
+    border: solid red 4px;
+    border-radius: 30px;
+    background-image: url(zirks!.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 200px 200px;
+}
+
+div:hover{
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 200px 50px;
+    border: solid rgb(0, 170, 255) 4px;
+    border-radius: 30px;
+
+    transition: 1.5s;
+}

@@ -1,0 +1,100 @@
+.color-change {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: changeColor 3s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+.bouncing-ball {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    animation: bounce 2s infinite;
+    position: absolute;
+    left: 300px;
+}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.rotate-div {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    animation: rotateDiv 2s infinite;
+    position: absolute;
+    left: 500px;
+    top: 40px;
+}
+
+@keyframes rotateDiv {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.text-color-change {
+    font-size: 40px;
+    font-weight: bold;
+    animation: changeTextColor 2s infinite;
+    position: absolute;
+    left: 800px;
+    top: 40px;
+}
+
+@keyframes changeTextColor {
+    0% {
+        color: red;
+    }
+    50% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+.scale-div {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    animation: scaleUpDown 4s infinite;
+    position: absolute;
+    left: 1150px;
+    top: 40px;
+}
+
+@keyframes scaleUpDown {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}

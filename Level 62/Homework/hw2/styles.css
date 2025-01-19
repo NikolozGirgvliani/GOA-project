@@ -1,0 +1,62 @@
+.ball{
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    border: solid;
+    animation: ball 2.3s infinite ease-in-out;
+}
+
+@keyframes ball {
+    0% {
+        position: absolute;
+        left: 30px;
+        top: 80px;
+        transform: scaleX(1);
+    }
+
+    25% {
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        transform: scaleX(1);
+    }
+
+    50% {
+        position: absolute;
+        left: 80px;
+        top: 80px;
+        transform: scaleX(1.3);
+    }
+
+    75% {
+        position: absolute;
+        left: 110px;
+        top: 20px;
+        transform: scaleX(1);
+    }
+
+    100% {
+        position: absolute;
+        left: 140px;
+        top: 80px;
+        transform: scaleX(1.3);
+    }
+}
+
+.grass{
+    width: 200px;
+    height: 5px;
+    background-color: green;
+    position: absolute;
+    top: 15px;
+    border-radius: 20px;
+}
+
+.grass1{
+    width: 200px;
+    height: 5px;
+    background-color: green;
+    position: absolute;
+    top: 105px;
+    border-radius: 20px;
+}

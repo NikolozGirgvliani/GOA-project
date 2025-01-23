@@ -1,0 +1,44 @@
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    position: absolute;
+    left: 200px;
+    top: 500px;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 100px;
+    position: absolute;
+    left: 1300px;
+    top: 500px;
+}
+
+.black{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 100px;
+    position: absolute;
+    left: 290px;
+    top: 535px;
+
+    animation: bullet 2s infinite ease-in-out;
+}
+
+@keyframes bullet{
+    0%{
+        position: absolute;
+        left: 200px;
+        top: 525px;
+    }
+    100%{
+        position: absolute;
+        left: 1300px;
+        top: 525px;
+    }
+}

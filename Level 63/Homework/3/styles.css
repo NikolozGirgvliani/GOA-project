@@ -1,0 +1,39 @@
+body {
+    background-color: #A6CDC6;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .yellow {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    left: 840px;
+  }
+
+  .blue {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -200%);
+    transform-origin: 0 200%; 
+    animation: spin 5s linear infinite; 
+  }
+
+  @keyframes spin {
+    0% {
+      transform: translate(-50%, -200%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -200%) rotate(360deg);
+    }
+  }

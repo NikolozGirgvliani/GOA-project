@@ -1,0 +1,141 @@
+body{
+    background-color: #F2EFE7;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.k11{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.k11:hover{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 0px;
+    transition: 1s;
+}
+
+.k1{
+    width: 210px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.k22{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.k22:hover{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 0px;
+    transition: 1s;
+}
+
+.k2{
+    width: 210px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.k33{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.k33:hover{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 0px;
+    transition: 1s;
+}
+
+.k3{
+    width: 210px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.k44{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.k44:hover{
+    width: 210px;
+    height: 240px;
+    background-color: #BFBBA9;
+    border-radius: 15px;
+    border: solid black 2px;
+    margin: 10px;
+    box-shadow: 0px 0px 20px 0px;
+    transition: 1s;
+}
+
+.k4{
+    width: 210px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: -0.5px;
+}
+
+
+
+.gg{
+    width: 1000px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+
+}
+
+
+

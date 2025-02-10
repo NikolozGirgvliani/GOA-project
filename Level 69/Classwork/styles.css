@@ -1,0 +1,30 @@
+.main-container{
+    display: flex;
+    width: 1700px;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.messi{
+    border-radius: 50px;
+}
+
+.ab1{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+.ab2{
+    position: absolute;
+    top: 510px;
+    left: 600px;
+}
+
+.ib{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ig{
+    font-family: 'Courier New', Courier, monospace;
+}

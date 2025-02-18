@@ -1,0 +1,48 @@
+
+.main{
+    width: 1700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.store1{
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.store2{
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.logo{
+    margin-top: -30px;
+}
+
+.main1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.store{
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+
+.Hyper{
+    width: 1700px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}

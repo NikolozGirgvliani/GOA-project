@@ -1,0 +1,64 @@
+body{
+    background-image: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-repeat: no-repeat;
+}
+
+.a{
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    font-weight: bold;
+    background-color: rgb(161, 161, 161);
+}
+
+.b{
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+    font-weight: bold;
+    background-color: rgb(128, 172, 255);
+}
+
+.c{
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    position: absolute;
+    top: 400px;
+    left: 900px;
+    background-color: red;
+    font-weight: bold;
+}
+
+.d{
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    position: absolute;
+    top: 450px;
+    left: 900px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.e{
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    background-color: green;
+    font-weight: bold;
+}
+
+img{
+    margin-left: 100px;
+    border-radius: 20px;
+}

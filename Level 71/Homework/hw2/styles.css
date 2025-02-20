@@ -1,0 +1,207 @@
+
+.Warning{
+    font-size: 30px;
+    background-color: orange;
+    border-radius: 15px;
+    border: solid yellow 5px;
+    color: yellow;
+
+    position: absolute;
+    top: 600px;
+    left: 70px;
+}
+
+.Warning:hover{
+    font-size: 33px;
+    background-color: orange;
+    border: solid yellow 5px;
+    color: yellow;
+
+    transition: 0.5s;
+}
+
+.Size1{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(0, 115, 255);
+    border: solid blue 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+
+.Size1:hover{
+    font-size: 33px;
+    background-color: rgb(0, 115, 255);
+    border: solid blue 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Size11{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(0, 115, 255);
+    border: solid blue 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 650px;
+    left: 300px;
+}
+
+.Size11:hover{
+    font-size: 33px;
+    background-color: rgb(0, 115, 255);
+    border: solid blue 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Size2{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(199, 255, 167);
+    border: solid rgb(0, 255, 55) 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 600px;
+    left: 800px;
+}
+
+.Size2:hover{
+    font-size: 33px;
+    background-color: rgb(199, 255, 167);
+    border: solid rgb(0, 255, 55) 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Size22{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(199, 255, 167);
+    border: solid rgb(0, 255, 55) 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 650px;
+    left: 800px;
+}
+
+.Size22:hover{
+    font-size: 33px;
+    background-color: rgb(199, 255, 167);
+    border: solid rgb(0, 255, 55) 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Change1{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 137, 137);
+    border: solid rgb(255, 77, 0) 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 750px;
+    left: 70px;
+}
+
+.Change1:hover{
+    font-size: 33px;
+    background-color: rgb(255, 137, 137);
+    border: solid rgb(255, 77, 0) 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Change11{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 137, 137);
+    border: solid rgb(255, 77, 0) 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 800px;
+    left: 70px;
+}
+
+.Change11:hover{
+    font-size: 33px;
+    background-color: rgb(255, 137, 137);
+    border: solid rgb(255, 77, 0) 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Change2{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(128, 0, 255);
+    border: solid rgb(102, 0, 255) 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 750px;
+    left: 600px;
+}
+
+.Change2:hover{
+    font-size: 33px;
+    background-color: rgb(128, 0, 255);
+    border: solid rgb(102, 0, 255) 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+.Change22{
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: rgb(128, 0, 255);
+    border: solid rgb(102, 0, 255) 5px;
+    color: rgb(0, 0, 0);
+
+    position: absolute;
+    top: 800px;
+    left: 600px;
+}
+
+.Change22:hover{
+    font-size: 33px;
+    background-color: rgb(128, 0, 255);
+    border: solid rgb(102, 0, 255) 5px;
+    color: rgb(0, 0, 0);
+
+    transition: 0.5s;
+}
+
+
+#p1{
+    margin-left: 500px;
+}
+
+#p2{
+    margin-left: 50px;
+}
+
+button{
+    margin-left: 250px;
+    margin-top: -100px;
+}
+
+body{
+    background-color: rgb(194, 255, 255);
+}

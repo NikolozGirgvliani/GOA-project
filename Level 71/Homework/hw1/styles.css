@@ -1,0 +1,25 @@
+.Home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 100px;
+    width: 700px;
+}
+
+img{
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: solid rgb(131, 131, 131) 10px;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}

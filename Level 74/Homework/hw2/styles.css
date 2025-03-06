@@ -1,0 +1,33 @@
+.op{
+    position: absolute;
+    top: 150px;
+}
+
+.og{
+    position: absolute;
+    left: 800px;
+    top: 10px;
+}
+
+.h11{
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    margin-bottom: -30px;
+    margin-top: -10px;
+    position: absolute;
+    left: 90px;
+
+}
+
+.h22{
+    font-size: 130px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    margin-bottom: -20px;
+    margin-top: -20px;
+    position: absolute;
+    left: 930px;
+    top: 800px;
+
+}

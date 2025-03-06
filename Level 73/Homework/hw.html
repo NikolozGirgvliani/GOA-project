@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div>
+        <h1>JavaScript</h1>
+        <button id="showValues">Show Values</button>
+        <button onclick="alertMessage()">Click On Me</button>
+    </div>
+
+
+    <script>
+        var number = 10;
+        var text = "Hello, World!";
+        var isTrue = true;
+        var isFalse = false;
+
+        console.log(number, text, isTrue, isFalse);
+
+        var combined = number + " | " + text + " | " + isTrue + " | " + isFalse;
+        console.log(combined);
+
+        document.getElementById("showValues").onclick = function() {
+            alert(combined);
+        };
+
+        function alertMessage() {
+            alert("დამაჭირე ღილაკზე!");
+        }
+    </script>
+</body>
+</html>

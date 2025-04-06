@@ -1,0 +1,108 @@
+.Brand{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    margin-top: -60px;
+    margin-left: 27px;
+}
+
+nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.g{
+    width: 240px;
+    margin-left: 30px;
+    margin-top: 510px;
+    color: rgb(168, 166, 166);
+}
+
+.si{
+    position: absolute;
+    top: 30px;
+    left: 660px;
+    background-color: rgb(231, 231, 231);
+    width: 600px;
+    height: 640px;
+    border-radius: 20px;
+}
+
+.one{
+    border-radius: 20px;
+    position: absolute;
+    left: 1280px;
+    top: 30px;
+}
+
+.r{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    width: 650px;
+    position: absolute;
+    left: 40px;
+    top: -30px;
+}
+
+.r1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 420px;
+    position: absolute;
+    left: 40px;
+    top: 300px;
+}
+
+.form{
+    position: absolute;
+    top: 460px;
+    left: 40px;
+}
+
+.email{
+    font-size: 15px;
+    height: 60px;
+    width: 446px;
+    border: none;
+    border-radius: 40px;
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit{
+    position: absolute;
+    left: 360px;
+    top: 8px;
+    font-size: 15px;
+    text-align: center;
+    height: 45px;
+    width: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+}
+
+.r2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    width: 340px;
+    position: absolute;
+    left: 40px;
+    top: 530px;
+}
+
+.we{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    width: 660px;
+    position: absolute;
+    left: 670px;
+    top: 670px;
+}
+
+.logo{
+    margin-top: -30px;
+}

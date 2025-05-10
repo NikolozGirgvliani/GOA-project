@@ -1,0 +1,37 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+
+.Aura {
+    font-size: 48px;
+    margin: 20px;
+  }
+
+button {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+.au1 {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: greenyellow;
+  }
+
+.au2 {
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: green;
+  }
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
